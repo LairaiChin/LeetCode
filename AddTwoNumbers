@@ -13,7 +13,7 @@ public class AddTwoNumbers {
 				p.next = new ListNode(temp);
 				carryFlag = 0;
 			} else {
-				p.next = new ListNode(temp-10);
+				p.next = new ListNode(temp%10);
 				carryFlag = 1;
 			}
 			p = p.next;
